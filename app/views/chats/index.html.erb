@@ -1,1 +1,12 @@
 <h1>Chat</h1>
+
+<div id="messages">
+  <%= render @messages %>
+</div>
+
+<form action="#" method="post" id="new-message">
+  <label for="body">Message</label>
+  <input type="text-area" rows="3" id="message-body">
+  <br>
+  <button type="submit">Send</button>
+</form>
