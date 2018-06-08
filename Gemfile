@@ -32,8 +32,11 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-# Use Clearance for AA
+# Use Clearance for Authentication
 gem 'clearance', '~> 1.16'
+
+# Use JQuery
+gem 'jquery-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
